@@ -1,11 +1,9 @@
 <?php
-    $robson = 2;
-    $pedro = 3;
+    $nome1 = "Robson";
+    $nome2 = "Pedro";
 
-    if( $robson <> $pedro){
-        echo "Robson é diferente de pedro.";
-    } else {
-        echo "Incorreto, Robson não é igual a pedro.";
+    if( $nome1 <> $nome2){
+        echo "Correto! $nome1 é diferente de $nome2.";
     }
 
 ?>
